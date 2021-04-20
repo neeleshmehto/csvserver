@@ -2,8 +2,7 @@
 
 ec2-user@ip-172-31-50-73 solution]$ history
 
-
-    1  docker
+	1  docker
     2  sudo amazon-linux-extras install docker
     3  sudo yum install docker
     4  sudo service docker start
@@ -12,7 +11,7 @@ ec2-user@ip-172-31-50-73 solution]$ history
     7  sudo docker info
     8  sudo usermod -a -G docker ec2-user
     9  docker info
-   10  docker pull infracloudio/csvserver:latest
+    10  docker pull infracloudio/csvserver:latest
    11  sudo docker pull infracloudio/csvserver:latest
    12  docker images
    13  sudo docker images
@@ -72,7 +71,7 @@ ec2-user@ip-172-31-50-73 solution]$ history
    79  docker-compose up
    80  sudo docker-compose up
    81  docker-compose ps
-   
+  
    
  ![image](https://user-images.githubusercontent.com/40487138/115357634-7868ab00-a1da-11eb-90ea-f6953f12b13d.png)
   
