@@ -1,26 +1,8 @@
-Part 1:
-
-terraform {
-  required_version = "0.12"
-}
-provider "aws" {
-	access_key = "${var.aws_access_key}"
-    secret_key = "${var.aws_secret_key}"
-	region = "${var.aws_region}"
-}
-
-
-
-Cloud: AWS(EKS, VPC, IAM (roles/policy), Ec2, S3, Load balancer, Route53, Autoscaling Group, SQS, Lambda etc)
-Automation: Shell scripting, Ansible, Terraform
-Repository: GIT (Github/Bitbucket), Jfrog, Nexus, Docker Registry
-DevOps Tools: Jenkins(CICD), Kubernetes, Jira, Docker, Maven, Helm,
-Monitoring Tools: AWS CloudWatch, Grafana, Kibana (Elastic search), Prometheus
-Code Quality/Coverage: sonarqube, JaCoCo
-
 
 
 ec2-user@ip-172-31-50-73 solution]$ history
+
+
     1  docker
     2  sudo amazon-linux-extras install docker
     3  sudo yum install docker
